@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="12" alignment="CENTER" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.plataforma.controller.LoginController"
+      style="-fx-padding: 40; -fx-background-color: #f4f4f4;">
+
+    <Label text="📚 Plataforma de Cursos" style="-fx-font-size: 22px; -fx-font-weight: bold;"/>
+    <Label text="Faça login para continuar" style="-fx-font-size: 13px; -fx-text-fill: #666;"/>
+
+    <TextField fx:id="campoEmail" promptText="Email" maxWidth="280"/>
+    <PasswordField fx:id="campoSenha" promptText="Senha" maxWidth="280"/>
+    <Button text="Entrar" onAction="#fazerLogin" maxWidth="280"
+            style="-fx-background-color: #2e86de; -fx-text-fill: white; -fx-font-size: 14px;"/>
+    <Hyperlink text="Não tem conta? Cadastre-se" onAction="#abrirCadastro"/>
+    <Label fx:id="lblErro" style="-fx-text-fill: red;"/>
+
+</VBox>

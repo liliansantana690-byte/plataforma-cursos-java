@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.plataforma.controller.RankingController"
+      style="-fx-padding: 20;">
+
+    <Label text="🏆 Ranking de Usuários" style="-fx-font-size: 18px; -fx-font-weight: bold;"/>
+
+    <TableView fx:id="tabelaRanking" VBox.vgrow="ALWAYS">
+        <columns>
+            <TableColumn fx:id="colNome" text="Usuário" prefWidth="300"/>
+            <TableColumn fx:id="colTotal" text="Cursos Concluídos" prefWidth="180"/>
+        </columns>
+    </TableView>
+
+</VBox>

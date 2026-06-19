@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox spacing="10" xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.plataforma.controller.CursosController"
+      style="-fx-padding: 20; -fx-background-color: #f4f4f4;">
+
+    <HBox alignment="CENTER_LEFT" spacing="20">
+        <Label fx:id="lblUsuario" style="-fx-font-size: 16px; -fx-font-weight: bold;"/>
+        <Label fx:id="lblProgresso" style="-fx-font-size: 13px; -fx-text-fill: #27ae60;"/>
+        <Button text="🏆 Ranking" onAction="#abrirRanking"/>
+    </HBox>
+
+    <HBox spacing="20">
+        <VBox spacing="8" HBox.hgrow="ALWAYS">
+            <Label text="Cursos disponíveis" style="-fx-font-weight: bold;"/>
+            <ListView fx:id="listaCursos" prefHeight="250"/>
+            <Button text="Matricular-se" onAction="#matricular"
+                    style="-fx-background-color: #2e86de; -fx-text-fill: white;"/>
+        </VBox>
+
+        <VBox spacing="8" HBox.hgrow="ALWAYS">
+            <Label text="Meus cursos" style="-fx-font-weight: bold;"/>
+            <ListView fx:id="listaMeusCursos" prefHeight="250"/>
+            <Button text="Concluir e Gerar Certificado" onAction="#concluirCurso"
+                    style="-fx-background-color: #27ae60; -fx-text-fill: white;"/>
+        </VBox>
+    </HBox>
+
+    <Label fx:id="lblMensagem" style="-fx-text-fill: #2e86de; -fx-font-size: 13px;"/>
+
+</VBox>

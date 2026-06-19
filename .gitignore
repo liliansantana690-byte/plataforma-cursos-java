@@ -1,0 +1,21 @@
+# Maven
+target/
+.mvn/
+
+# Credenciais — NUNCA subir no GitHub
+.env
+
+# Arquivos gerados em execução
+certificados/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
