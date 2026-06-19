@@ -14,7 +14,7 @@
 
 A **Plataforma de Cursos** é uma aplicação desktop desenvolvida em Java com JavaFX, voltada para o gerenciamento de cursos e certificações. O sistema permite que usuários se cadastrem, façam login, se matriculem em cursos e gerem um certificado em PDF ao concluir.
 
-Projeto desenvolvido como portfólio acadêmico do curso de **Engenharia de Software — UNIJORGE**.
+Projeto desenvolvido como portfólio acadêmico do curso de **Engenharia de Software**.
 
 > ⚠️ Esta é a **versão 1.0** do projeto. A v2 inclui galeria de concluintes com foto via webcam. Veja o [roadmap](#-roadmap).
 
@@ -212,7 +212,7 @@ Separação entre Model (dados), DAO (acesso ao banco), Controller (lógica de t
 ## 👩‍💻 Autora
 
 **Lilian**
-Estudante de Engenharia de Software — UNIJORGE | Salvador, BA
+Estudante de Engenharia de Software | Salvador, BA
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?style=flat&logo=linkedin)](https://linkedin.com/in/seu-perfil)
 [![GitHub](https://img.shields.io/badge/GitHub-black?style=flat&logo=github)](https://github.com/seu-usuario)
